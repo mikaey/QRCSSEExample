@@ -1,0 +1,54 @@
+package com.paypal;
+
+public enum CardHolderVerificationCapabilityType {
+    /** Unknown if terminal can verify card holder. */
+    UNKNOWN,
+
+    /** Terminal has no means to verify card holder. */
+    NONE,
+
+    /** MANUAL_SIGNATURE_VERIFICATION */
+    MANUAL_SIGNATURE_VERIFICATION,
+
+    /** ONLINE_PIN */
+    ONLINE_PIN,
+
+    /** OFFLINE_PIN_IN_CLEAR */
+    OFFLINE_PIN_IN_CLEAR,
+
+    /** OFFLINE_PIN_ENCRYPTED */
+    OFFLINE_PIN_ENCRYPTED,
+
+    /** OFFLINE_DIGITIZED_SIGNATURE_ANALYSIS */
+    OFFLINE_DIGITIZED_SIGNATURE_ANALYSIS,
+
+    /** OFFLINE_BIOMETRICS */
+    OFFLINE_BIOMETRICS,
+
+    /** Other manual verification, e.g., passport, drivers license, etc. */
+    OTHER_MANUAL_VERIFICATION,
+
+    /** OFFLINE_BIOGRAPHICS */
+    OFFLINE_BIOGRAPHICS,
+
+    /** ACCOUNT_BASED_DIGITAL_SIGNATURE */
+    ACCOUNT_BASED_DIGITAL_SIGNATURE,
+
+    /** PUBLIC_KEY_BASED_DIGITAL_SIGNATURE */
+    PUBLIC_KEY_BASED_DIGITAL_SIGNATURE,
+
+    /** MANUAL_ID_VERIFICATION */
+    MANUAL_ID_VERIFICATION,
+
+    /** PIN_ENTRY_CAPABILITY */
+    PIN_ENTRY_CAPABILITY,
+
+    /** NO_PIN_ENTRY_CAPABILITY */
+    NO_PIN_ENTRY_CAPABILITY,
+
+    /** PIN_ENTRY_CAPABILITY_NOT_OPERATIVE */
+    PIN_ENTRY_CAPABILITY_NOT_OPERATIVE,
+
+    /** PIN_VERIFIED_BY_TERMINAL */
+    PIN_VERIFIED_BY_TERMINAL
+}
